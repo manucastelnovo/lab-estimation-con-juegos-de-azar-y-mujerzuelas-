@@ -50,8 +50,8 @@
 		</nav>
 	</div>
 
-	<div class="py-[20px]">
-		<select name="project">
+	<div class="py-[20px] flex items-center">
+		<select class="bg-black focus:bg-black focus:border-black" name="project">
 			<option value="value1">Advance</option>
 			<option value="value2" selected>Morfit</option>
 			<option value="value3">Puae App</option>
