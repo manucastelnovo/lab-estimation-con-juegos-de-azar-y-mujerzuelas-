@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+
+	<body data-sveltekit-preload-data="hover" style="height: 100vh; background-color: #0a0b0d">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+
+	<div id="particles-js"></div>
+
+	<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'assets/particles.json', function () {
+			console.log('callback - particles.js config loaded');
+		});
+	</script>
+</html>
